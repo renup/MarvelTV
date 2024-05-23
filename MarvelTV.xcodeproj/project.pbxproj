@@ -14,6 +14,9 @@
 		24D19B9A2BFFFF89002B7E03 /* MarvelTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19B992BFFFF89002B7E03 /* MarvelTVTests.swift */; };
 		24D19BA42BFFFF89002B7E03 /* MarvelTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BA32BFFFF89002B7E03 /* MarvelTVUITests.swift */; };
 		24D19BA62BFFFF89002B7E03 /* MarvelTVUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BA52BFFFF89002B7E03 /* MarvelTVUITestsLaunchTests.swift */; };
+		24D19BB52C000690002B7E03 /* CharactersCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BB42C000690002B7E03 /* CharactersCollection.swift */; };
+		24D19BB72C000709002B7E03 /* CharactersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BB62C000709002B7E03 /* CharactersRepository.swift */; };
+		24D19BBA2C00073E002B7E03 /* CharactersCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BB92C00073E002B7E03 /* CharactersCollectionViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		24D19B9F2BFFFF89002B7E03 /* MarvelTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24D19BA32BFFFF89002B7E03 /* MarvelTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelTVUITests.swift; sourceTree = "<group>"; };
 		24D19BA52BFFFF89002B7E03 /* MarvelTVUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelTVUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		24D19BB42C000690002B7E03 /* CharactersCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersCollection.swift; sourceTree = "<group>"; };
+		24D19BB62C000709002B7E03 /* CharactersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersRepository.swift; sourceTree = "<group>"; };
+		24D19BB92C00073E002B7E03 /* CharactersCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersCollectionViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,7 @@
 		24D19BB22C000511002B7E03 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				24D19BB62C000709002B7E03 /* CharactersRepository.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -139,8 +146,18 @@
 		24D19BB32C00051A002B7E03 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				24D19BB82C00071E002B7E03 /* Characters */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		24D19BB82C00071E002B7E03 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				24D19BB42C000690002B7E03 /* CharactersCollection.swift */,
+				24D19BB92C00073E002B7E03 /* CharactersCollectionViewModel.swift */,
+			);
+			path = Characters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,8 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24D19BBA2C00073E002B7E03 /* CharactersCollectionViewModel.swift in Sources */,
 				24D19B8B2BFFFF86002B7E03 /* ContentView.swift in Sources */,
+				24D19BB72C000709002B7E03 /* CharactersRepository.swift in Sources */,
 				24D19B892BFFFF86002B7E03 /* MarvelTVApp.swift in Sources */,
+				24D19BB52C000690002B7E03 /* CharactersCollection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
