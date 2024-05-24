@@ -66,6 +66,7 @@
 		24D19BC82C001414002B7E03 /* DefaultRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultRequestBuilder.swift; sourceTree = "<group>"; };
 		24D19BCA2C0019C5002B7E03 /* Dictionary+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extension.swift"; sourceTree = "<group>"; };
 		24D19BCC2C001B81002B7E03 /* NetworkTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTransport.swift; sourceTree = "<group>"; };
+		24D19BCE2C0098BC002B7E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +117,7 @@
 		24D19B872BFFFF86002B7E03 /* MarvelTV */ = {
 			isa = PBXGroup;
 			children = (
+				24D19BCE2C0098BC002B7E03 /* Info.plist */,
 				24D19BC22C001111002B7E03 /* Extensions */,
 				24D19BB32C00051A002B7E03 /* Screens */,
 				24D19BB22C000511002B7E03 /* Network */,
@@ -509,6 +511,7 @@
 				DEVELOPMENT_TEAM = L88M38NBF2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarvelTV/Info.plist;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -535,6 +538,7 @@
 				DEVELOPMENT_TEAM = L88M38NBF2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarvelTV/Info.plist;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
