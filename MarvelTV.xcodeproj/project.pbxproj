@@ -25,7 +25,6 @@
 		24D19BC92C001414002B7E03 /* DefaultRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BC82C001414002B7E03 /* DefaultRequestBuilder.swift */; };
 		24D19BCB2C0019C5002B7E03 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BCA2C0019C5002B7E03 /* Dictionary+Extension.swift */; };
 		24D19BCD2C001B81002B7E03 /* NetworkTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BCC2C001B81002B7E03 /* NetworkTransport.swift */; };
-		24D19BD02C00AA7A002B7E03 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24D19BCF2C00AA7A002B7E03 /* info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +66,6 @@
 		24D19BC82C001414002B7E03 /* DefaultRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultRequestBuilder.swift; sourceTree = "<group>"; };
 		24D19BCA2C0019C5002B7E03 /* Dictionary+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extension.swift"; sourceTree = "<group>"; };
 		24D19BCC2C001B81002B7E03 /* NetworkTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTransport.swift; sourceTree = "<group>"; };
-		24D19BCF2C00AA7A002B7E03 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +96,6 @@
 		24D19B7C2BFFFF86002B7E03 = {
 			isa = PBXGroup;
 			children = (
-				24D19BCF2C00AA7A002B7E03 /* info.plist */,
 				24D19B872BFFFF86002B7E03 /* MarvelTV */,
 				24D19B982BFFFF89002B7E03 /* MarvelTVTests */,
 				24D19BA22BFFFF89002B7E03 /* MarvelTVUITests */,
@@ -308,7 +305,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				24D19B902BFFFF89002B7E03 /* Preview Assets.xcassets in Resources */,
-				24D19BD02C00AA7A002B7E03 /* info.plist in Resources */,
 				24D19B8D2BFFFF89002B7E03 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
