@@ -17,6 +17,14 @@
 		24D19BB52C000690002B7E03 /* CharactersCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BB42C000690002B7E03 /* CharactersCollection.swift */; };
 		24D19BB72C000709002B7E03 /* CharactersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BB62C000709002B7E03 /* CharactersRepository.swift */; };
 		24D19BBA2C00073E002B7E03 /* CharactersCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BB92C00073E002B7E03 /* CharactersCollectionViewModel.swift */; };
+		24D19BBC2C000D52002B7E03 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BBB2C000D52002B7E03 /* Constants.swift */; };
+		24D19BBF2C000E55002B7E03 /* CharactersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BBE2C000E55002B7E03 /* CharactersResponse.swift */; };
+		24D19BC12C001055002B7E03 /* AsyncState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BC02C001055002B7E03 /* AsyncState.swift */; };
+		24D19BC42C00112A002B7E03 /* Logger+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BC32C00112A002B7E03 /* Logger+Extension.swift */; };
+		24D19BC72C001383002B7E03 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BC62C001383002B7E03 /* RequestBuilder.swift */; };
+		24D19BC92C001414002B7E03 /* DefaultRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BC82C001414002B7E03 /* DefaultRequestBuilder.swift */; };
+		24D19BCB2C0019C5002B7E03 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BCA2C0019C5002B7E03 /* Dictionary+Extension.swift */; };
+		24D19BCD2C001B81002B7E03 /* NetworkTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BCC2C001B81002B7E03 /* NetworkTransport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +58,14 @@
 		24D19BB42C000690002B7E03 /* CharactersCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersCollection.swift; sourceTree = "<group>"; };
 		24D19BB62C000709002B7E03 /* CharactersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersRepository.swift; sourceTree = "<group>"; };
 		24D19BB92C00073E002B7E03 /* CharactersCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersCollectionViewModel.swift; sourceTree = "<group>"; };
+		24D19BBB2C000D52002B7E03 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		24D19BBE2C000E55002B7E03 /* CharactersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersResponse.swift; sourceTree = "<group>"; };
+		24D19BC02C001055002B7E03 /* AsyncState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncState.swift; sourceTree = "<group>"; };
+		24D19BC32C00112A002B7E03 /* Logger+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logger+Extension.swift"; sourceTree = "<group>"; };
+		24D19BC62C001383002B7E03 /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		24D19BC82C001414002B7E03 /* DefaultRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultRequestBuilder.swift; sourceTree = "<group>"; };
+		24D19BCA2C0019C5002B7E03 /* Dictionary+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extension.swift"; sourceTree = "<group>"; };
+		24D19BCC2C001B81002B7E03 /* NetworkTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTransport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +116,14 @@
 		24D19B872BFFFF86002B7E03 /* MarvelTV */ = {
 			isa = PBXGroup;
 			children = (
+				24D19BC22C001111002B7E03 /* Extensions */,
 				24D19BB32C00051A002B7E03 /* Screens */,
 				24D19BB22C000511002B7E03 /* Network */,
 				24D19B882BFFFF86002B7E03 /* MarvelTVApp.swift */,
 				24D19B8A2BFFFF86002B7E03 /* ContentView.swift */,
 				24D19B8C2BFFFF89002B7E03 /* Assets.xcassets */,
 				24D19B8E2BFFFF89002B7E03 /* Preview Content */,
+				24D19BBB2C000D52002B7E03 /* Constants.swift */,
 			);
 			path = MarvelTV;
 			sourceTree = "<group>";
@@ -138,7 +156,10 @@
 		24D19BB22C000511002B7E03 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				24D19BC52C001338002B7E03 /* RequestBuilder */,
 				24D19BB62C000709002B7E03 /* CharactersRepository.swift */,
+				24D19BC02C001055002B7E03 /* AsyncState.swift */,
+				24D19BCC2C001B81002B7E03 /* NetworkTransport.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -156,8 +177,27 @@
 			children = (
 				24D19BB42C000690002B7E03 /* CharactersCollection.swift */,
 				24D19BB92C00073E002B7E03 /* CharactersCollectionViewModel.swift */,
+				24D19BBE2C000E55002B7E03 /* CharactersResponse.swift */,
 			);
 			path = Characters;
+			sourceTree = "<group>";
+		};
+		24D19BC22C001111002B7E03 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				24D19BC32C00112A002B7E03 /* Logger+Extension.swift */,
+				24D19BCA2C0019C5002B7E03 /* Dictionary+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		24D19BC52C001338002B7E03 /* RequestBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				24D19BC62C001383002B7E03 /* RequestBuilder.swift */,
+				24D19BC82C001414002B7E03 /* DefaultRequestBuilder.swift */,
+			);
+			path = RequestBuilder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,9 +332,17 @@
 			files = (
 				24D19BBA2C00073E002B7E03 /* CharactersCollectionViewModel.swift in Sources */,
 				24D19B8B2BFFFF86002B7E03 /* ContentView.swift in Sources */,
+				24D19BC12C001055002B7E03 /* AsyncState.swift in Sources */,
 				24D19BB72C000709002B7E03 /* CharactersRepository.swift in Sources */,
+				24D19BC42C00112A002B7E03 /* Logger+Extension.swift in Sources */,
+				24D19BC92C001414002B7E03 /* DefaultRequestBuilder.swift in Sources */,
+				24D19BC72C001383002B7E03 /* RequestBuilder.swift in Sources */,
 				24D19B892BFFFF86002B7E03 /* MarvelTVApp.swift in Sources */,
 				24D19BB52C000690002B7E03 /* CharactersCollection.swift in Sources */,
+				24D19BBF2C000E55002B7E03 /* CharactersResponse.swift in Sources */,
+				24D19BBC2C000D52002B7E03 /* Constants.swift in Sources */,
+				24D19BCD2C001B81002B7E03 /* NetworkTransport.swift in Sources */,
+				24D19BCB2C0019C5002B7E03 /* Dictionary+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
