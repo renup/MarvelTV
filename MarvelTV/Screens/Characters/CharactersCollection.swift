@@ -54,12 +54,11 @@ struct MarvelCharactersView: View {
             LazyHGrid(rows: rows, spacing: 20) {
                 ForEach(viewModel.characters) { character in
                     characterCell(for: character)
+                        .focusable()
                 }
             }
-            .background(.green)
         }
-        .background(.orange)
-
+        .focusSection()
     }
     
     private func characterCell(for character: Character) -> some View {
@@ -80,10 +79,7 @@ struct MarvelCharactersView: View {
                 .multilineTextAlignment(.center)
         }
         .frame(width: 250)
-        .background(.pink)
     }
-
-    
 }
 
 
