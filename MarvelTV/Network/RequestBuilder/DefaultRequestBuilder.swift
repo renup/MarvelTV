@@ -26,16 +26,10 @@ class DefaultRequestBuilder: RequestBuilder {
         let hash = MD5(string: "\(timestamp)\(Constants.Keys.hasher)\(Constants.Keys.apiKey)")
         
         let defaultQueryItems: [URLQueryItem] = [
-            URLQueryItem(name: "apikey", value: Constants.Keys.apiKey),
-            URLQueryItem(name: "ts", value: timestamp),
-            URLQueryItem(name: "hash", value: hash)
-        ]
-        
-//        let defaultQueryItems: [URLQueryItem] = [
-//                   "apikey" : Constants.Keys.apiKey,
-//                   "ts" : timestamp,
-//                   "hash" : hash
-//               ].asURLQueryItems
+           "apikey" : Constants.Keys.apiKey,
+           "ts" : timestamp,
+           "hash" : hash
+        ].asURLQueryItems
         
         var queryItems = defaultQueryItems
         

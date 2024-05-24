@@ -11,7 +11,7 @@ import OSLog
 private let logger = Logger(subsystem: "MarvelTV", category: "MarvelCharactersView", forDebugBuild: true)
 
 
-struct MarvelCharactersView: View {
+struct CharactersCollection: View {
     @State private var viewModel = CharactersCollectionViewModel()
     
     var rows = [
@@ -30,7 +30,8 @@ struct MarvelCharactersView: View {
     
     private var title: some View {
         HStack {
-            Text("Popular Characters")
+            Text("POPULAR CHARACTERS")
+                .font(.title)
                 .foregroundStyle(.white)
 
             Spacer()
@@ -39,7 +40,7 @@ struct MarvelCharactersView: View {
                 print("See all tapped")
             }) {
                 HStack {
-                    Text("See All")
+                    Text("SEE ALL")
                     Image(systemName: "chevron.right")
                 }
             }
@@ -73,7 +74,7 @@ struct MarvelCharactersView: View {
                 ProgressView()
             }
 
-            Text(character.name)
+            Text(character.name.uppercased())
                 .lineLimit(2)
                 .truncationMode(.tail)
                 .multilineTextAlignment(.center)
