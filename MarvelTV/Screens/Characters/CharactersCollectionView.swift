@@ -11,7 +11,7 @@ import OSLog
 private let logger = Logger(subsystem: "MarvelTV", category: "MarvelCharactersView", forDebugBuild: true)
 
 
-struct CharactersCollection: View {
+struct CharactersCollectionView: View {
     @State private var viewModel = CharactersCollectionViewModel()
     
     var rows = [
