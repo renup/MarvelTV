@@ -7,14 +7,35 @@
 
 import Foundation
 
-struct Character: Codable {
+struct Character: Codable, Identifiable {
     let id: Int
     let name: String
-//    let thumbnail: Thumbnail
+    let description: String
+    let modified: String
+    let thumbnail: Thumbnail
+    
+    enum CodingKeys: String, CodingKey {
+        case id
+        case name
+        case description
+        case modified
+        case thumbnail
+    }
 }
 
 struct Thumbnail: Codable {
     let path: String
+    let `extension`: String
+    
+    enum CodingKeys: String, CodingKey {
+        case path
+        case `extension` = "extension"
+    }
+    
+    var url: URL? {
+        let urlString = "\(path).\(`extension`)"
+        return URL(string: urlString)
+    }
 }
 
 struct MarvelResponse: Codable {
