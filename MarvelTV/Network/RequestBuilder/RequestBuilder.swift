@@ -18,7 +18,6 @@ protocol RequestBuilder: AnyObject {
     func buildRequest(
         endpoint: String,
         method: HTTPMethod,
-        headers: [String: Any]?,
         parameters: [URLQueryItem]?
     ) async throws -> URLRequest
 }

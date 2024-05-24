@@ -13,27 +13,44 @@ private let logger = Logger(subsystem: "MarvelTV", category: "DefaultRequestBuil
 
 class DefaultRequestBuilder: RequestBuilder {
     
-    public func buildRequest(
+    func buildRequest(
         endpoint: String,
         method: HTTPMethod = .get,
-        headers: [String: Any]? = nil,
         parameters: [URLQueryItem]? = nil
     ) async throws -> URLRequest {
-        guard let url = URL(string: Constants.baseUrl+endpoint) else { throw URLError(.badURL) }
-        
-        var request = URLRequest(url: url)
-        request.httpMethod = method.rawValue
+        guard var urlComponents = URLComponents(string: Constants.baseUrl + endpoint) else {
+            throw URLError(.badURL)
+        }
         
         let timestamp = String(Date().timeIntervalSince1970)
         let hash = MD5(string: "\(timestamp)\(Constants.Keys.hasher)\(Constants.Keys.apiKey)")
         
-        let defaultParameters: [URLQueryItem] = [
-            "apikey" : Constants.Keys.apiKey,
-            "ts" : timestamp,
-            "hash" : hash
-        ].asURLQueryItems
+        let defaultQueryItems: [URLQueryItem] = [
+            URLQueryItem(name: "apikey", value: Constants.Keys.apiKey),
+            URLQueryItem(name: "ts", value: timestamp),
+            URLQueryItem(name: "hash", value: hash)
+        ]
         
-        request.url?.append(queryItems: parameters ?? [])
+//        let defaultQueryItems: [URLQueryItem] = [
+//                   "apikey" : Constants.Keys.apiKey,
+//                   "ts" : timestamp,
+//                   "hash" : hash
+//               ].asURLQueryItems
+        
+        var queryItems = defaultQueryItems
+        
+        if let parameters = parameters {
+            queryItems.append(contentsOf: parameters)
+        }
+        
+        urlComponents.queryItems = queryItems
+        
+        guard let url = urlComponents.url else {
+            throw URLError(.badURL)
+        }
+        
+        var request = URLRequest(url: url)
+        request.httpMethod = method.rawValue
         
         logger.debug("request = \(request)")
         
@@ -45,4 +62,3 @@ class DefaultRequestBuilder: RequestBuilder {
         return digest.map { String(format: "%02hhx", $0) }.joined()
     }
 }
-

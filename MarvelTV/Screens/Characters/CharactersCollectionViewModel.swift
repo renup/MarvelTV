@@ -15,16 +15,17 @@ class CharactersCollectionViewModel {
     
     let charactersRepository: CharactersRepository
     var asyncState: AsyncState = .initial
-    
+    var characters = [Character]()
     init(charactersRepository: CharactersRepository = DefaultCharactersRepository()) {
         self.charactersRepository = charactersRepository
     }
     
+    @MainActor
     func pullAllCharacters() {
         asyncState = .loading
         Task {
             do {
-                let characters = try await charactersRepository.fetchAllCharacters()
+                characters = try await charactersRepository.fetchAllCharacters()
                 asyncState = .loaded
             } catch {
                 asyncState = .error

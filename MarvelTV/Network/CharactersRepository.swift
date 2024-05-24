@@ -15,9 +15,11 @@ protocol CharactersRepository {
 class DefaultCharactersRepository: CharactersRepository {
     
     let requestBuilder: RequestBuilder
+    let networkTransport: NetworkTransport
     
-    init(requestBuilder: RequestBuilder = DefaultRequestBuilder()) {
+    init(requestBuilder: RequestBuilder = DefaultRequestBuilder(), networkTransport: NetworkTransport = DefaultNetworkTransport()) {
         self.requestBuilder = requestBuilder
+        self.networkTransport = networkTransport
     }
     
     
@@ -27,17 +29,11 @@ class DefaultCharactersRepository: CharactersRepository {
             
 //            let urlString = "https://gateway.marvel.com/v1/public/characters?apikey=\(publicKey)&ts=\(timestamp)&hash=\(hash)"
             
-            guard let url = URL(string: urlString) else {
-                print("Invalid URL")
-                return
-            }
-            
-            do {
-                let (data, _) = try await URLSession.shared.data(from: url)
-                let marvelResponse = try JSONDecoder().decode(MarvelResponse.self, from: data)
-                characters = marvelResponse.data.results
-            } catch {
-                print("Error: \(error.localizedDescription)")
-            }
+        let request = try await requestBuilder.buildRequest(endpoint: "characters", method: .get, parameters: [])
+        
+        let result: MarvelResponse = try await networkTransport.executeRequest(request, jsonDecoder: JSONDecoder())
+        
+        return result.data.results
+        
         }
 }
