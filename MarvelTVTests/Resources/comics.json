@@ -1,0 +1,3170 @@
+{
+  "code": 200,
+  "status": "Ok",
+  "copyright": "© 2024 MARVEL",
+  "attributionText": "Data provided by Marvel. © 2024 MARVEL",
+  "attributionHTML": "\u003Ca href=\"http://marvel.com\"\u003EData provided by Marvel. © 2024 MARVEL\u003C/a\u003E",
+  "etag": "1edf19ae2252f09051fa87e48013e34da43a07a7",
+  "data": {
+    "offset": 0,
+    "limit": 20,
+    "total": 202,
+    "count": 20,
+    "results": [
+      {
+        "id": 106811,
+        "digitalId": 0,
+        "title": "Warlock: Rebirth (Trade Paperback)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "Collects Warlock: Rebirth (2023) #1-5.  An untold take of Adam Warlock and the Infinity Watch! Ron Marz and Ron Lim return to the world of Adam Warlock to tell a flashback tale set in the wake of the classic cosmic epic INFINITY GAUNTLET! Adam was created to be the perfect human specimen. Since then, he has gone on to be a cosmic savior, defending the galaxy from the likes of Thanos and the Magus. But what will happen when the next evolution of Warlock emerges? Someone stronger, faster and smarter than Adam? Adam has been stripped of his Infinity Gem, and its new bearer calls herself Eve! With Adam rendered comatose, his allies - Gamora, Pip the Troll and Genis-Vell - seek the aid of Doctor Strange! But can the Sorcerer Supreme help Adam find his way out of Soul World? Or will Eve reign supreme as the new Warlock of the cosmos?",
+        "modified": "2023-11-06T12:46:41-0500",
+        "isbn": "978-1-302-95213-6",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "9781302 952136 51599",
+        "issn": "",
+        "format": "Trade Paperback",
+        "pageCount": 112,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/106811",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/106811/warlock_rebirth_trade_paperback?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/36861",
+          "name": "Warlock: Rebirth (2023)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2023-11-08T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "2023-08-28T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 15.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/50/64e3c09ade63c",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/50/64e3c09ade63c",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/106811/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 1
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/106811/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010354",
+              "name": "Adam Warlock"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/106811/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/234734",
+              "name": "cover from ADAM WARLOCK TPB (2023) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/234735",
+              "name": "story from ADAM WARLOCK TPB (2023) #1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/106811/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 102536,
+        "digitalId": 63847,
+        "title": "Silver Surfer Rebirth: Legacy (2023) #2",
+        "issueNumber": 2,
+        "variantDescription": "",
+        "description": "THE SILVER SURFER VS. ADAM WARLOCK! Surfer has been framed for the apparent death of Genis-Vell! Can the Surfer survive long enough to clear his name to the Infinity Watch? And what actually happened to Genis?!",
+        "modified": "2023-11-21T09:13:32-0500",
+        "isbn": "",
+        "upc": "75960620435900211",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/102536",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/102536/silver_surfer_rebirth_legacy_2023_2?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Silver-Surfer-Rebirth-Legacy-2/digital-comic/63847?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=63847&utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/35415",
+          "name": "Silver Surfer Rebirth: Legacy (2023 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2023-10-11T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2023-09-11T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2023-09-25T14:58:00-0400"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2023-09-25T14:58:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/60/65298f8d2684a",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/60/65298f8d2684a",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 6,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/102536/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13250",
+              "name": "Romulo Fajardo Jr.",
+              "role": "colorist (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11483",
+              "name": "Don Ho",
+              "role": "inker (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/658",
+              "name": "Ron Lim",
+              "role": "penciler (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2673",
+              "name": "Ron Marz",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12974",
+              "name": "Vc Joe Sabino",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13027",
+              "name": "Darren Shan",
+              "role": "editor"
+            }
+          ],
+          "returned": 6
+        },
+        "characters": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/102536/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010354",
+              "name": "Adam Warlock"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011098",
+              "name": "Genis-Vell"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009592",
+              "name": "Silver Surfer"
+            }
+          ],
+          "returned": 3
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/102536/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/226173",
+              "name": "cover from Silver Surfer Rebirth 2 (2029) #2",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/226174",
+              "name": "story from Silver Surfer Rebirth 2 (2029) #2",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/102536/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 106817,
+        "digitalId": 63197,
+        "title": "Warlock: Rebirth (2023) #5",
+        "issueNumber": 5,
+        "variantDescription": "",
+        "description": "The grand conclusion to Adam Warlock's journey! Will he rise above and prove himself as the better Warlock, or is Eve truly his replacement?",
+        "modified": "2023-09-14T09:14:21-0400",
+        "isbn": "",
+        "upc": "75960620589900511",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/106817",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/106817/warlock_rebirth_2023_5?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Warlock-Rebirth-5/digital-comic/63197?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=63197&utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/36860",
+          "name": "Warlock: Rebirth (2023)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2023-08-02T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2023-06-26T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2023-07-11T09:47:00-0400"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2023-07-11T09:47:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/90/64d12993ec181",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/90/64d12993ec181",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 6,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/106817/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13250",
+              "name": "Romulo Fajardo Jr.",
+              "role": "colorist (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11483",
+              "name": "Don Ho",
+              "role": "inker (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/658",
+              "name": "Ron Lim",
+              "role": "penciler (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2673",
+              "name": "Ron Marz",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12974",
+              "name": "Vc Joe Sabino",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13027",
+              "name": "Darren Shan",
+              "role": "editor"
+            }
+          ],
+          "returned": 6
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/106817/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010354",
+              "name": "Adam Warlock"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/106817/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/234746",
+              "name": "cover from Adam Warlock (2023) #5",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/234747",
+              "name": "story from Adam Warlock (2023) #5",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/106817/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 106816,
+        "digitalId": 63030,
+        "title": "Warlock: Rebirth (2023) #4",
+        "issueNumber": 4,
+        "variantDescription": "",
+        "description": "It's Warlock vs. Warlock! But will Adam emerge victorious? Or will Eve reign supreme as the new Warlock of the cosmos!",
+        "modified": "2023-08-22T17:21:39-0400",
+        "isbn": "",
+        "upc": "75960620589900411",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/106816",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/106816/warlock_rebirth_2023_4?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Warlock-Rebirth-4/digital-comic/63030?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=63030&utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/36860",
+          "name": "Warlock: Rebirth (2023)"
+        },
+        "variants": [
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/110100",
+            "name": "Warlock: Rebirth (2023) #4 (Variant)"
+          }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2023-07-12T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2023-06-12T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2023-06-22T15:23:00-0400"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2023-06-22T15:23:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/a/00/649da2988a1df",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/a/00/649da2988a1df",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 6,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/106816/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13250",
+              "name": "Romulo Fajardo Jr.",
+              "role": "colorist (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11483",
+              "name": "Don Ho",
+              "role": "inker (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/658",
+              "name": "Ron Lim",
+              "role": "penciler (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2673",
+              "name": "Ron Marz",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12974",
+              "name": "Vc Joe Sabino",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13027",
+              "name": "Darren Shan",
+              "role": "editor"
+            }
+          ],
+          "returned": 6
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/106816/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010354",
+              "name": "Adam Warlock"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/106816/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/234744",
+              "name": "cover from Adam Warlock (2023) #4",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/234745",
+              "name": "story from Adam Warlock (2023) #4",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/106816/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 106815,
+        "digitalId": 62805,
+        "title": "Warlock: Rebirth (2023) #3",
+        "issueNumber": 3,
+        "variantDescription": "",
+        "description": "Adam Warlock and Doctor Strange must escape Soul World! But in order to do that, Adam will have to fight Eve head on! Without the Soul Gem, does Adam stand a chance?",
+        "modified": "2023-08-22T17:21:34-0400",
+        "isbn": "",
+        "upc": "75960620589900311",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/106815",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/106815/warlock_rebirth_2023_3?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Warlock-Rebirth-3/digital-comic/62805?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=62805&utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/36860",
+          "name": "Warlock: Rebirth (2023)"
+        },
+        "variants": [
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/109483",
+            "name": "Warlock: Rebirth (2023) #3 (Variant)"
+          }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2023-06-28T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2023-05-29T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2023-06-08T17:09:00-0400"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2023-06-08T17:09:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/b0/6494a8c8af3d1",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/b0/6494a8c8af3d1",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 6,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/106815/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13250",
+              "name": "Romulo Fajardo Jr.",
+              "role": "colorist (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11483",
+              "name": "Don Ho",
+              "role": "inker (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/658",
+              "name": "Ron Lim",
+              "role": "penciler (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2673",
+              "name": "Ron Marz",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12974",
+              "name": "Vc Joe Sabino",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13027",
+              "name": "Darren Shan",
+              "role": "editor"
+            }
+          ],
+          "returned": 6
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/106815/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010354",
+              "name": "Adam Warlock"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/106815/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/234742",
+              "name": "cover from Adam Warlock (2023) #3",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/234743",
+              "name": "story from Adam Warlock (2023) #3",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/106815/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 106814,
+        "digitalId": 62553,
+        "title": "Warlock: Rebirth (2023) #2",
+        "issueNumber": 2,
+        "variantDescription": "",
+        "description": "Adam Warlock has been stripped of his Infinity Gem! But who is the new bearer calling herself Eve? As Adam falls into a coma, Gamora, Pip and Genis-Vell must seek the help of Doctor Strange!",
+        "modified": "2023-08-28T02:59:47-0400",
+        "isbn": "",
+        "upc": "75960620589900211",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/106814",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/106814/warlock_rebirth_2023_2?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Warlock-Rebirth-2/digital-comic/62553?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=62553&utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/36860",
+          "name": "Warlock: Rebirth (2023)"
+        },
+        "variants": [
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/108802",
+            "name": "Warlock: Rebirth (2023) #2 (Variant)"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/108803",
+            "name": "Warlock: Rebirth (2023) #2 (Variant)"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/108804",
+            "name": "Warlock: Rebirth (2023) #2 (Variant)"
+          }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2023-05-24T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2023-04-24T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2023-05-05T13:25:00-0400"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2023-05-05T13:25:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/40/646b6a2ec1fde",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/40/646b6a2ec1fde",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 6,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/106814/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13250",
+              "name": "Romulo Fajardo Jr.",
+              "role": "colorist (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11483",
+              "name": "Don Ho",
+              "role": "inker (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/658",
+              "name": "Ron Lim",
+              "role": "penciler (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2673",
+              "name": "Ron Marz",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12974",
+              "name": "Vc Joe Sabino",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13027",
+              "name": "Darren Shan",
+              "role": "editor"
+            }
+          ],
+          "returned": 6
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/106814/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010354",
+              "name": "Adam Warlock"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/106814/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/234740",
+              "name": "cover from Adam Warlock (2023) #2",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/234741",
+              "name": "story from Adam Warlock (2023) #2",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/106814/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 103119,
+        "digitalId": 62607,
+        "title": "Who Is...? Adam Warlock Infinity Comic (2023) #1",
+        "issueNumber": 1,
+        "variantDescription": "",
+        "description": "",
+        "modified": "2023-05-04T12:46:25-0400",
+        "isbn": "",
+        "upc": "75960620274401211",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Digital Vertical Comic",
+        "pageCount": 4,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "Get ready for a cosmic journey like no other! From the cocoon of his creation as \"HIM\" to wielder of the Infinity Stones, expand your mind across the stars and learn…Who Is Adam Warlock?"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/103119",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/103119/who_is._adam_warlock_infinity_comic_2023_1?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=62607&utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/35546",
+          "name": "Who Is...? Adam Warlock Infinity Comic (2023)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2023-05-05T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2023-04-03T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2023-05-05T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/2/50/63fcba59c3deb",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/2/50/63fcba59c3deb",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/103119/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12313",
+              "name": "Mark Basso",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13280",
+              "name": "Damian Couceiro",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/10172",
+              "name": "Vc Clayton Cowles",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1282",
+              "name": "Ralph Macchio",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13008",
+              "name": "Ruth Redmond",
+              "role": "colorist"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 6,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/103119/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010354",
+              "name": "Adam Warlock"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010763",
+              "name": "Gamora"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011299",
+              "name": "Guardians of the Galaxy"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010904",
+              "name": "Magus (Adam Warlock)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010762",
+              "name": "Pip"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009652",
+              "name": "Thanos"
+            }
+          ],
+          "returned": 6
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/103119/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/227341",
+              "name": "cover from Who Is…? Adam Warlock Infinity Comic (2023) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/227342",
+              "name": "story from Who Is…? Adam Warlock Infinity Comic (2023) #1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/103119/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 105920,
+        "digitalId": 62173,
+        "title": "Adam Warlock: Strange Tales Facsimile Edition (2023) #178",
+        "issueNumber": 178,
+        "variantDescription": "",
+        "description": "Witness the power of Warlock! Presenting the first chapter in cosmic maestro Jim Starlin’s sprawling saga of the enigmatic Adam Warlock – and his dark side, the malevolent Magus! Warlock was an artificial entity created on Earth to be the perfect man; he went on to travel the stars and harness the power of the cosmic Soul Gem! But when a desperate woman comes to Adam Warlock for aid, will he protect her from the religious fanatics of the Universal Church of Truth or fall to the might of its towering warrior, Borgia? The Church worships the ultimate force that is the Magus – and when Adam learns the truth about him, nothing will ever be the same! It’s one of the all-time great Marvel comic books, boldly re-presented in its original form, ads and all! Reprinting STRANGE TALES (1975) #178",
+        "modified": "2023-04-25T14:15:14-0400",
+        "isbn": "",
+        "upc": "75960620549300111",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/105920",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/105920/adam_warlock_strange_tales_facsimile_edition_2023_178?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Adam-Warlock-Strange-Tales-Facsimile-Edition-178/digital-comic/62173?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=62173&utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/36621",
+          "name": "Adam Warlock: Strange Tales Facsimile Edition (2023)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2023-04-26T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2023-03-27T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2023-06-26T11:06:00-0400"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2023-06-26T11:06:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/50/6451118db36e6",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/50/6451118db36e6",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/105920/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/146",
+              "name": "Jim Starlin",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 2
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/105920/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010354",
+              "name": "Adam Warlock"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/105920/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/232951",
+              "name": "cover from new series (2023) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/232952",
+              "name": "story from new series (2023) #1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/105920/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 109103,
+        "digitalId": 62645,
+        "title": "Guardians of the Galaxy: Somebody's Got to Do It Infinity Comic (2023) #4",
+        "issueNumber": 4,
+        "variantDescription": "",
+        "description": "",
+        "modified": "2023-04-20T09:24:42-0400",
+        "isbn": "",
+        "upc": "75960620669800411",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Digital Vertical Comic",
+        "pageCount": 10,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "The Infinity Comics adaptation of GUARDIANS OF THE GALAXY (2008) #2! What is the Guardians’ connection to Adam Warlock's mystical past? Could it really be the threat he's spent years trying to deny?"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/109103",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/109103/guardians_of_the_galaxy_somebodys_got_to_do_it_infinity_comic_2023_4?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=62645&utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/37451",
+          "name": "Guardians of the Galaxy: Somebody's Got to Do It Infinity Comic (2023)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2023-04-21T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2023-03-20T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2023-04-21T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/1/a0/63fe764959139",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/1/a0/63fe764959139",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/109103/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1107",
+              "name": "Dan Abnett",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/485",
+              "name": "Andy Lanning",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/10454",
+              "name": "Nathan Fairbairn",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/559",
+              "name": "Paul Pelletier",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/109103/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010354",
+              "name": "Adam Warlock"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011299",
+              "name": "Guardians of the Galaxy"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009523",
+              "name": "Quasar (Phyla-Vell)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010744",
+              "name": "Rocket Raccoon"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010733",
+              "name": "Star-Lord (Peter Quill)"
+            }
+          ],
+          "returned": 5
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/109103/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/239328",
+              "name": "cover from Guardians of the Galaxy: Somebody's Got to Do It Infinity Comic (2023) #4",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/239329",
+              "name": "story from Guardians of the Galaxy: Somebody's Got to Do It Infinity Comic (2023) #4",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/109103/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 109107,
+        "digitalId": 62922,
+        "title": "Guardians of the Galaxy: Somebody's Got to Do It Infinity Comic (2023) #8",
+        "issueNumber": 8,
+        "variantDescription": "",
+        "description": "",
+        "modified": "2023-04-20T10:04:38-0400",
+        "isbn": "",
+        "upc": "75960620669800811",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Digital Vertical Comic",
+        "pageCount": 10,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "The Infinity Comics adaptation of GUARDIANS OF THE GALAXY (2008) #4! Is there a Skrull amongst the Guardians? Maybe the recently returned and revamped Adam Warlock? Or Star-Lord? Rocket?"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/109107",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/109107/guardians_of_the_galaxy_somebodys_got_to_do_it_infinity_comic_2023_8?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=62922&utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/37451",
+          "name": "Guardians of the Galaxy: Somebody's Got to Do It Infinity Comic (2023)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2023-04-21T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2023-03-20T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2023-04-21T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/50/64274f8c33a2c",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/50/64274f8c33a2c",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/109107/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8571",
+              "name": "Guru-eFX",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1107",
+              "name": "Dan Abnett",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/485",
+              "name": "Andy Lanning",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/559",
+              "name": "Paul Pelletier",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/109107/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010354",
+              "name": "Adam Warlock"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011299",
+              "name": "Guardians of the Galaxy"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010744",
+              "name": "Rocket Raccoon"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010733",
+              "name": "Star-Lord (Peter Quill)"
+            }
+          ],
+          "returned": 4
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/109107/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/239336",
+              "name": "cover from Guardians of the Galaxy: Somebody's Got to Do It Infinity Comic (2023) #8",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/239337",
+              "name": "story from Guardians of the Galaxy: Somebody's Got to Do It Infinity Comic (2023) #8",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/109107/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 109106,
+        "digitalId": 62925,
+        "title": "Guardians of the Galaxy: Somebody's Got to Do It Infinity Comic (2023) #7",
+        "issueNumber": 7,
+        "variantDescription": "",
+        "description": "",
+        "modified": "2023-04-20T09:59:12-0400",
+        "isbn": "",
+        "upc": "75960620669800711",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Digital Vertical Comic",
+        "pageCount": 10,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "The Infinity Comics adaptation of GUARDIANS OF THE GALAXY (2008) #4! When their HQ is sabotaged, the universe's scrappiest squad of butt-kickers must ask themselves: \"Who do you trust?\""
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/109106",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/109106/guardians_of_the_galaxy_somebodys_got_to_do_it_infinity_comic_2023_7?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=62925&utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/37451",
+          "name": "Guardians of the Galaxy: Somebody's Got to Do It Infinity Comic (2023)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2023-04-21T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2023-03-20T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2023-04-21T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/e/03/64274f6a89620",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/e/03/64274f6a89620",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/109106/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8571",
+              "name": "Guru-eFX",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1107",
+              "name": "Dan Abnett",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/485",
+              "name": "Andy Lanning",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/559",
+              "name": "Paul Pelletier",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/109106/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010354",
+              "name": "Adam Warlock"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011299",
+              "name": "Guardians of the Galaxy"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009523",
+              "name": "Quasar (Phyla-Vell)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010744",
+              "name": "Rocket Raccoon"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010733",
+              "name": "Star-Lord (Peter Quill)"
+            }
+          ],
+          "returned": 5
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/109106/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/239334",
+              "name": "cover from Guardians of the Galaxy: Somebody's Got to Do It Infinity Comic (2023) #7",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/239335",
+              "name": "story from Guardians of the Galaxy: Somebody's Got to Do It Infinity Comic (2023) #7",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/109106/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 106810,
+        "digitalId": 62246,
+        "title": "Warlock: Rebirth (2023) #1",
+        "issueNumber": 1,
+        "variantDescription": "",
+        "description": "Adam Warlock was created to be the perfect human specimen. Since then, Adam has gone on to be a cosmic savior, defending the galaxy from the likes of Thanos, the Universal Church of Truth and the Magus. But what will happen when the next evolution of Warlock emerges? Someone who is stronger, faster and smarter than Adam? Don’t miss this untold story of Adam Warlock and the Infinity Watch as Ron Marz and Ron Lim (SILVER SURFER: REBIRTH) introduce a new character that will forever impact Warlock’s legacy!",
+        "modified": "2023-08-22T17:22:47-0400",
+        "isbn": "",
+        "upc": "75960620589900111",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/106810",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/106810/warlock_rebirth_2023_1?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Warlock-Rebirth-1/digital-comic/62246?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=62246&utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/36860",
+          "name": "Warlock: Rebirth (2023)"
+        },
+        "variants": [
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/106812",
+            "name": "Warlock: Rebirth (2023) #1 (Variant)"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/106813",
+            "name": "Warlock: Rebirth (2023) #1 (Variant)"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/108142",
+            "name": "Warlock: Rebirth (2023) #1 (Variant)"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/108143",
+            "name": "Warlock: Rebirth (2023) #1 (Variant)"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/108144",
+            "name": "Warlock: Rebirth (2023) #1 (Variant)"
+          }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2023-04-19T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2023-03-20T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2023-03-31T17:08:00-0400"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2023-03-31T17:08:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/2/d0/64346a401e06d",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/2/d0/64346a401e06d",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 6,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/106810/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13250",
+              "name": "Romulo Fajardo Jr.",
+              "role": "colorist (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11483",
+              "name": "Don Ho",
+              "role": "inker (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/658",
+              "name": "Ron Lim",
+              "role": "penciler (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2673",
+              "name": "Ron Marz",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12974",
+              "name": "Vc Joe Sabino",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13027",
+              "name": "Darren Shan",
+              "role": "editor"
+            }
+          ],
+          "returned": 6
+        },
+        "characters": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/106810/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010354",
+              "name": "Adam Warlock"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010763",
+              "name": "Gamora"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011300",
+              "name": "High Evolutionary"
+            }
+          ],
+          "returned": 3
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/106810/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/234732",
+              "name": "cover from Adam Warlock (2023) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/234733",
+              "name": "story from Adam Warlock (2023) #1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/106810/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 105140,
+        "digitalId": 62254,
+        "title": "Adam Warlock Omnibus (Trade Paperback)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "Collects FANTASTIC FOUR (1961) #66-67, THOR (1966) #165-166, MARVEL PREMIERE #1-2, WARLOCK (1972) #1-15, INCREDIBLE HULK (1968) #176-178 and ANNUAL #6, STRANGE TALES (1951) #178-181, MARVEL TEAM-UP (1972) #55, AVENGERS ANNUAL #7 and MARVEL TWO-IN-ONE (1972) #61-63 and ANNUAL #2.Created by the utopian scientists of the Enclave and hatched from the imaginations of Stan Lee and Jack Kirby, there came a being known only as…Him! And when this perfect being encountered the High Evolutionary, he gained a purpose, a Soul Gem and a name: Adam Warlock! His adventures will rock your world - and Counter-Earth too! Now, Warlock's complete original 1970s saga is collected in one volume. Featuring the first life (and death) of Adam Warlock, the debut of the Infinity Gems, the Magus saga, the all-time classic war against Thanos, the debut of Her, the resurrection of Adam Warlock and a massive treasure trove of bonus material!",
+        "modified": "2023-04-06T09:56:42-0400",
+        "isbn": "978-1-302-94987-7",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "9781302 949877 59999",
+        "issn": "",
+        "format": "Trade Paperback",
+        "pageCount": 904,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/105140",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/105140/adam_warlock_omnibus_trade_paperback?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Adam-Warlock-Omnibus-0/digital-comic/62254?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=62254&utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/36369",
+          "name": "Adam Warlock Omnibus (2023)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2023-04-05T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2022-10-24T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2023-07-24T16:48:00-0400"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2023-07-24T16:48:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 125
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/00/64230d70ce8d1",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/00/64230d70ce8d1",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 49,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/105140/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1186",
+              "name": "Jack Abel",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1212",
+              "name": "Dan Adkins",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1523",
+              "name": "Vince Colletta",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2010",
+              "name": "Gene Day",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1295",
+              "name": "Mike Esposito",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1519",
+              "name": "Frank Giacoia",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13094",
+              "name": "Dave Hunt",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1288",
+              "name": "Jerry Bingham",
+              "role": "penciler"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/106",
+              "name": "Bob Brown",
+              "role": "penciler"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1612",
+              "name": "John Buscema",
+              "role": "penciler"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1827",
+              "name": "John Byrne",
+              "role": "penciler"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1767",
+              "name": "Janice Cohen",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1747",
+              "name": "Petra Goldberg",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/962",
+              "name": "Stan Goldberg",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/954",
+              "name": "Gerry Conway",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13769",
+              "name": "Bill Mantlo - Duplicate",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1245",
+              "name": "Mike Friedrich",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1360",
+              "name": "Ron Goulart",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/259",
+              "name": "Mark Gruenwald",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1746",
+              "name": "John Costanza",
+              "role": "letterer"
+            }
+          ],
+          "returned": 20
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/105140/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010354",
+              "name": "Adam Warlock"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/105140/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/231388",
+              "name": "cover from ADAM WARLOCK OMNIBUS HC (2023) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/231389",
+              "name": "story from ADAM WARLOCK OMNIBUS HC (2023) #1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/105140/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 73526,
+        "digitalId": 54103,
+        "title": "Guardians Of The Galaxy Vol. 2: Faithless (Trade Paperback)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "Collects Guardians Of The Galaxy (2019) #7-12, Guardians of the Galaxy Annual (2019) #1.  The death of Rocket? The Guardians of the Galaxy are taking some well-deserved R&R — but their vacation will soon be cut short when a familiar, radically powerful enemy returns. What does this have to do with everyone’s favorite raccoon-like weapons expert? The bad news is Rocket is dying. The good news is he still has some fight left in him! Though with only a few Guardians willing to stand beside him…the odds aren’t looking good. As the threat of the Universal Church of Truth looms large over the cosmos, can Rocket hold on long enough to make a difference? Plus: Find out what really happened to Nova, Quasar, Adam Warlock and Darkhawk! And who better to tell their stories than Cosmo the space dog?",
+        "modified": "2020-02-18T13:17:09-0500",
+        "isbn": "978-1-302-91589-6",
+        "upc": "",
+        "diamondCode": "NOV190963",
+        "ean": "9781302 915896 52499",
+        "issn": "2330-6777",
+        "format": "Trade Paperback",
+        "pageCount": 176,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/73526",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/73526/guardians_of_the_galaxy_vol_2_faithless_trade_paperback?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=54103&utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/26496",
+          "name": "Guardians Of The Galaxy Vol. 2: Faithless (2020)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2020-02-19T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "2019-12-30T00:00:00-0500"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2023-04-28T17:20:38-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 24.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/80/6489dcc03ce34",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/80/6489dcc03ce34",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/73526/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11401",
+              "name": "Various",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13235",
+              "name": "Geoffrey Shaw",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/73526/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010354",
+              "name": "Adam Warlock"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011020",
+              "name": "Darkhawk"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011299",
+              "name": "Guardians of the Galaxy"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009477",
+              "name": "Nova"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010744",
+              "name": "Rocket Raccoon"
+            }
+          ],
+          "returned": 5
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/73526/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/163858",
+              "name": "cover from GUARDIANS OF THE GALAXY VOL. 2 TPB (2020) #2",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/163859",
+              "name": "story from GUARDIANS OF THE GALAXY VOL. 2 TPB (2020) #2",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/73526/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 71572,
+        "digitalId": 52575,
+        "title": "Infinity Wars By Gerry Duggan: The Complete Collection (Trade Paperback)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "Collects Infinity Countdown Prime, Infinity Countdown: Adam Warlock, Infinity Countdown #1-5, Infinity Wars Prime, Infinity Wars #1-6, Infinity Wars: Fallen Guardian And Infinity And Material From Free Comic Book Day 2018 (Amazing Spider-Man/Guardians Of The Galaxy) #1 And Thanos Legacy #1.  The full saga of Requiem and the Infinity Wars! The Infinity Stones are back. Individually, they grant their wielders great power. Together, they bestow the power of a god! As each stone’s location is discovered, forces converge for a battle that will send the universe down a dark path — to the end! Featuring the Chitauri, the Raptors, the Nova Corps, the Guardians of the Galaxy, Adam Warlock and more surprising Stone wielders! But who, or what, is Requiem? When she warps the Marvel Universe in half, what surprising heroes will assemble to stand against her? And when death comes at last, who will fall?",
+        "modified": "2019-09-12T16:54:20-0400",
+        "isbn": "978-1-302-91496-7",
+        "upc": "",
+        "diamondCode": "MAR190990",
+        "ean": "9781302 914967 55000",
+        "issn": "",
+        "format": "Trade Paperback",
+        "pageCount": 592,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/71572",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/71572/infinity_wars_by_gerry_duggan_the_complete_collection_trade_paperback?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/INFINITY-WARS-BY-GERRY-DUGGAN-THE-COMPLETE-COLLECTION-HC-0/digital-comic/52575?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=52575&utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/52575?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/26083",
+          "name": "Infinity Wars By Gerry Duggan: The Complete Collection (2019)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2019-09-18T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2019-04-29T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2019-09-18T00:00:00-0400"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2019-09-18T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 50
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 19.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/80/5d794bb159dab",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/80/5d794bb159dab",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 9,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/71572/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/95",
+              "name": "Mike Allred",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/87",
+              "name": "Mark Bagley",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/942",
+              "name": "Mike Hawthorne",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12979",
+              "name": "Aaron Kuder",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/7964",
+              "name": "Andy Macdonald",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13061",
+              "name": "Cory Smith",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13567",
+              "name": "Mike Deodato Jr.",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11680",
+              "name": "Gerry Duggan",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 9
+        },
+        "characters": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/71572/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010354",
+              "name": "Adam Warlock"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+              "name": "Avengers"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009652",
+              "name": "Thanos"
+            }
+          ],
+          "returned": 3
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/71572/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/159137",
+              "name": "cover from DEATH WINS HC (2029) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/159138",
+              "name": "story from DEATH WINS HC (2029) #1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/71572/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 76749,
+        "digitalId": 51675,
+        "title": "Guardians Of The Galaxy Annual (2019) #1",
+        "issueNumber": 1,
+        "variantDescription": "",
+        "description": "Since the Black Order’s attack on the galaxy’s greatest defenders, the cosmos has been wtihout its heroes. Find out what really happened to Nova, Quasar, Adam Warlock, and Darkhawk! And who better to tell this story than Cosmo, the Spacedog?",
+        "modified": "2019-04-26T11:23:10-0400",
+        "isbn": "",
+        "upc": "75960609474500111",
+        "diamondCode": "APR190844",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 40,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/76749",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/76749/guardians_of_the_galaxy_annual_2019_1?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/GUARDIANS-OF-THE-GALAXY-ANNUAL-1-1/digital-comic/51675?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=51675&utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/51675?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/27554",
+          "name": "Guardians Of The Galaxy Annual (2019)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2019-06-05T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2019-05-13T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2019-12-09T00:00:00-0500"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2019-06-05T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 4.99
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 4.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/b0/5ced97cf6e221",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/b0/5ced97cf6e221",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/10/5c9bb4b4c3ac7",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 12,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/76749/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12471",
+              "name": "Filipe Andrade",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12448",
+              "name": "Yildiray Cinar",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12879",
+              "name": "Ibrahim Moustafa",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13679",
+              "name": "Jean-Francious Beaulieu",
+              "role": "colorist (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1141",
+              "name": "Giuseppe Camuncoli",
+              "role": "penciler (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12712",
+              "name": "Donny Cates",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12174",
+              "name": "Al Ewing",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13536",
+              "name": "Tini Howard",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13298",
+              "name": "Lonnie Nadler",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13297",
+              "name": "Zac Thompson",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12980",
+              "name": "Vc Cory Petit",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13027",
+              "name": "Darren Shan",
+              "role": "editor"
+            }
+          ],
+          "returned": 12
+        },
+        "characters": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/76749/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010354",
+              "name": "Adam Warlock"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011353",
+              "name": "Cosmo (dog)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011299",
+              "name": "Guardians of the Galaxy"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009477",
+              "name": "Nova"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010778",
+              "name": "Quasar (Wendell Vaughn)"
+            }
+          ],
+          "returned": 5
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/76749/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/170370",
+              "name": "cover from Guardians of the Galaxy Annual (2019) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/170371",
+              "name": "story from Guardians of the Galaxy Annual (2019) #1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/76749/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 72781,
+        "digitalId": 52296,
+        "title": "Infinity By Starlin & Hickman (Hardcover)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "",
+        "modified": "2019-03-28T17:48:12-0400",
+        "isbn": "978-1-302-91565-0",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "9781302 915650 59999",
+        "issn": "",
+        "format": "Hardcover",
+        "pageCount": 848,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "Collecting Infinity #1-6, New Avengers (2013) #7-12, Avengers (2012) #14-23 and Infinity: Against the Tide Infinite Comic #1-2.\n\nThanos makes his world-shattering return, and his armies fire the opening shots of a galactic war that will be fought both on Earth and in deep space - with our heroes caught between both battles! As the mad Titan's secrets are revealed, the Inhumans' city of Attilan falls, and the members of the Illuminati find themselves on the front line! And as every Origin Site on Earth goes active, the Builders enter the Marvel Universe. But can the Avengers return to Earth in time to save it, when betrayal in the Galactic Council has left them prisoners of war?"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/72781",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/72781/infinity_by_starlin_hickman_hardcover?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/INFINITY-BY-STARLIN-HICKMAN-OMNIBUS-HC-0/digital-comic/52296?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=52296&utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/26307",
+          "name": "Infinity By Starlin & Hickman (2019)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2019-04-03T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2018-11-12T00:00:00-0500"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2019-05-14T11:56:00-0400"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2019-05-14T11:56:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 125
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/90/5c9d28089b204",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/90/5c9d28089b204",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 7,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/72781/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11401",
+              "name": "Various",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/658",
+              "name": "Ron Lim",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11743",
+              "name": "Jonathan Hickman",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11434",
+              "name": "Nick Spencer",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/146",
+              "name": "Jim Starlin",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1161",
+              "name": "George Perez",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 7
+        },
+        "characters": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/72781/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010354",
+              "name": "Adam Warlock"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+              "name": "Avengers"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009652",
+              "name": "Thanos"
+            }
+          ],
+          "returned": 3
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/72781/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/161746",
+              "name": "cover from INFINITY: FIRST TO LAST OMNIBUS HC (2019) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/161747",
+              "name": "story from INFINITY: FIRST TO LAST OMNIBUS HC (2019) #1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/72781/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 73554,
+        "digitalId": 52297,
+        "title": "Infinity War Omnibus (Trade Paperback)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "",
+        "modified": "2019-03-28T17:44:43-0400",
+        "isbn": "978-1-302-91596-4",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "9781302 915964 59999",
+        "issn": "",
+        "format": "Trade Paperback",
+        "pageCount": 1352,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "COLLECTING: INFINITY WAR 1-6; FANTASTIC FOUR (1961) 366-370; SPIDER-MAN (1990) 24; DEATHLOK (1991) 16; DAREDEVIL (1964) 310; WARLOCK AND THE INFINITY WATCH 7-10; DOCTOR STRANGE, SORCERER SUPREME 42-47; SILVER SURFER (1987) 67-69; WONDER MAN (1991) 13-15; ALPHA FLIGHT (1983) 110-112; SILVER SABLE & THE WILD PACK 4-5; GUARDIANS OF THE GALAXY (1990) 27-29; QUASAR 37-40; NEW WARRIORS (1990) 27; MARC SPECTOR: MOON KNIGHT 41-44; NOMAD (1992) 7; SLEEPWALKER 18; MATERIAL FROM CAPTAIN AMERICA (1968) 408; ALPHA FLIGHT (1983) 109; MARVEL COMICS PRESENTS (1988) 108-112. The epic sequel to the Infinity Gauntlet! Adam Warlock's dark half has resurfaced. The Magus is here. And the cosmos shall feel his wrath! As the Magus schemes for ultimate power, an army of evil doppelgangers overwhelms Earth's heroes, Dr. Strange and Galactus seek answers and Thanos enters the fray - alongside the Infinity Watch! Can the Avengers, X-Men and more turn the tide? To defeat the Magus, Eternity must be awakened...and the Infinity Gauntlet reassembled!"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/73554",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/73554/infinity_war_omnibus_trade_paperback?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/INFINITY-WAR-OMNIBUS-HC-0/digital-comic/52297?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=52297&utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/26512",
+          "name": "Infinity War Omnibus (2019)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2019-04-03T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2018-11-12T00:00:00-0500"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2019-05-14T11:56:00-0400"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2019-05-14T11:56:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 125
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/d0/5c9d27f6a06d7",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/d0/5c9d27f6a06d7",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 11,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/73554/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11401",
+              "name": "Various",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/9565",
+              "name": "Tom Defalco",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2673",
+              "name": "Ron Marz",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/146",
+              "name": "Jim Starlin",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2909",
+              "name": "Roy Thomas",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/10581",
+              "name": "Vero Gandini",
+              "role": "colorist (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/658",
+              "name": "Ron Lim",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/372",
+              "name": "Angel Medina",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/444",
+              "name": "Tom Raney",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/261",
+              "name": "Paul Ryan",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 11
+        },
+        "characters": {
+          "available": 6,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/73554/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010354",
+              "name": "Adam Warlock"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+              "name": "Avengers"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009312",
+              "name": "Galactus"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010904",
+              "name": "Magus (Adam Warlock)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009652",
+              "name": "Thanos"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+              "name": "X-Men"
+            }
+          ],
+          "returned": 6
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/73554/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/163917",
+              "name": "cover from INFINITY WAR OMNIBUS HC (2019) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/163918",
+              "name": "story from INFINITY WAR OMNIBUS HC (2019) #1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/73554/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 74762,
+        "digitalId": 50103,
+        "title": "Infinity Wars: Infinity (2019) #1",
+        "issueNumber": 1,
+        "variantDescription": "",
+        "description": "What comes AFTER Infinity?",
+        "modified": "2019-06-21T17:22:11-0400",
+        "isbn": "",
+        "upc": "75960609319900111",
+        "diamondCode": "OCT180876",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/74762",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/74762/infinity_wars_infinity_2019_1?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/INFINITY-WARS-INFINITY-1-1/digital-comic/50103?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=50103&utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/50103?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/26898",
+          "name": "Infinity Wars: Infinity (2019)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2019-01-02T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "2018-12-03T00:00:00-0500"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2019-07-08T00:00:00-0400"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2019-01-02T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/50/5c23edd3b2784",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/50/5c23edd3b2784",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/74762/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13567",
+              "name": "Mike Deodato Jr.",
+              "role": "penciler (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11680",
+              "name": "Gerry Duggan",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8822",
+              "name": "Jordan D. White",
+              "role": "editor"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/74762/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010354",
+              "name": "Adam Warlock"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/74762/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/166362",
+              "name": "cover from Infinity Wars: Infinity (2018) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/166363",
+              "name": "story from Infinity Wars: Infinity (2018) #1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/74762/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 67151,
+        "digitalId": 50084,
+        "title": "Infinity Wars (2018) #6",
+        "issueNumber": 6,
+        "variantDescription": "",
+        "description": "Infinity's End.",
+        "modified": "2018-09-20T10:27:52-0400",
+        "isbn": "",
+        "upc": "75960608967300611",
+        "diamondCode": "OCT180866",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 56,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/67151",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/67151/infinity_wars_2018_6?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Infinity-Wars-6/digital-comic/50084?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=50084&utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/50084?utm_campaign=apiRef&utm_source=139085d9053f946275efce81067b8ad2"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/24279",
+          "name": "Infinity Wars (2018)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2018-12-19T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "2018-11-19T00:00:00-0500"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2019-06-24T00:00:00-0400"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2018-12-19T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 5.99
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 5.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/40/5c12b5f4e47c4",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/40/5c12b5f4e47c4",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/30/5bb3d3103e8e9",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 6,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/67151/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13215",
+              "name": "Rain Beredo",
+              "role": "colorist (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13567",
+              "name": "Mike Deodato Jr.",
+              "role": "penciler (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11680",
+              "name": "Gerry Duggan",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4991",
+              "name": "Frank Martin",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12980",
+              "name": "Vc Cory Petit",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8822",
+              "name": "Jordan D. White",
+              "role": "editor"
+            }
+          ],
+          "returned": 6
+        },
+        "characters": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/67151/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010354",
+              "name": "Adam Warlock"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010763",
+              "name": "Gamora"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011299",
+              "name": "Guardians of the Galaxy"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009407",
+              "name": "Loki"
+            }
+          ],
+          "returned": 4
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/67151/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/145485",
+              "name": "cover from Infinity's Requiem (2018) #6",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/145486",
+              "name": "story from Infinity's Requiem (2018) #6",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/67151/events",
+          "items": [],
+          "returned": 0
+        }
+      }
+    ]
+  }
+}

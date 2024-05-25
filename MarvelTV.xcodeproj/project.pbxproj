@@ -32,6 +32,9 @@
 		24D19BE52C016541002B7E03 /* PlaceholderProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BE42C016541002B7E03 /* PlaceholderProvider.swift */; };
 		24D19BE72C01F488002B7E03 /* CustomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BE62C01F488002B7E03 /* CustomText.swift */; };
 		24D19BE92C01FAEF002B7E03 /* CustomAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BE82C01FAEF002B7E03 /* CustomAsyncImage.swift */; };
+		24D19BEC2C0207BD002B7E03 /* characters.json in Resources */ = {isa = PBXBuildFile; fileRef = 24D19BEA2C0207BD002B7E03 /* characters.json */; };
+		24D19BED2C0207BD002B7E03 /* comics.json in Resources */ = {isa = PBXBuildFile; fileRef = 24D19BEB2C0207BD002B7E03 /* comics.json */; };
+		24D19BEF2C0207ED002B7E03 /* CharactersCollectionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BEE2C0207ED002B7E03 /* CharactersCollectionViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +84,9 @@
 		24D19BE42C016541002B7E03 /* PlaceholderProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderProvider.swift; sourceTree = "<group>"; };
 		24D19BE62C01F488002B7E03 /* CustomText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomText.swift; sourceTree = "<group>"; };
 		24D19BE82C01FAEF002B7E03 /* CustomAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAsyncImage.swift; sourceTree = "<group>"; };
+		24D19BEA2C0207BD002B7E03 /* characters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = characters.json; sourceTree = "<group>"; };
+		24D19BEB2C0207BD002B7E03 /* comics.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = comics.json; sourceTree = "<group>"; };
+		24D19BEE2C0207ED002B7E03 /* CharactersCollectionViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersCollectionViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,7 +160,9 @@
 		24D19B982BFFFF89002B7E03 /* MarvelTVTests */ = {
 			isa = PBXGroup;
 			children = (
+				24D19BF02C02092F002B7E03 /* Resources */,
 				24D19B992BFFFF89002B7E03 /* MarvelTVTests.swift */,
+				24D19BEE2C0207ED002B7E03 /* CharactersCollectionViewModelTests.swift */,
 			);
 			path = MarvelTVTests;
 			sourceTree = "<group>";
@@ -245,6 +253,15 @@
 				24D19BE82C01FAEF002B7E03 /* CustomAsyncImage.swift */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		24D19BF02C02092F002B7E03 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				24D19BEA2C0207BD002B7E03 /* characters.json */,
+				24D19BEB2C0207BD002B7E03 /* comics.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,6 +377,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24D19BEC2C0207BD002B7E03 /* characters.json in Resources */,
+				24D19BED2C0207BD002B7E03 /* comics.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +423,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24D19BEF2C0207ED002B7E03 /* CharactersCollectionViewModelTests.swift in Sources */,
 				24D19B9A2BFFFF89002B7E03 /* MarvelTVTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
