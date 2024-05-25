@@ -35,6 +35,7 @@
 		24D19BEC2C0207BD002B7E03 /* characters.json in Resources */ = {isa = PBXBuildFile; fileRef = 24D19BEA2C0207BD002B7E03 /* characters.json */; };
 		24D19BED2C0207BD002B7E03 /* comics.json in Resources */ = {isa = PBXBuildFile; fileRef = 24D19BEB2C0207BD002B7E03 /* comics.json */; };
 		24D19BEF2C0207ED002B7E03 /* CharactersCollectionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BEE2C0207ED002B7E03 /* CharactersCollectionViewModelTests.swift */; };
+		24D19BF22C021289002B7E03 /* characters_failure.json in Resources */ = {isa = PBXBuildFile; fileRef = 24D19BF12C021289002B7E03 /* characters_failure.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		24D19BEA2C0207BD002B7E03 /* characters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = characters.json; sourceTree = "<group>"; };
 		24D19BEB2C0207BD002B7E03 /* comics.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = comics.json; sourceTree = "<group>"; };
 		24D19BEE2C0207ED002B7E03 /* CharactersCollectionViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersCollectionViewModelTests.swift; sourceTree = "<group>"; };
+		24D19BF12C021289002B7E03 /* characters_failure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = characters_failure.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,6 +260,7 @@
 		24D19BF02C02092F002B7E03 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				24D19BF12C021289002B7E03 /* characters_failure.json */,
 				24D19BEA2C0207BD002B7E03 /* characters.json */,
 				24D19BEB2C0207BD002B7E03 /* comics.json */,
 			);
@@ -378,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24D19BEC2C0207BD002B7E03 /* characters.json in Resources */,
+				24D19BF22C021289002B7E03 /* characters_failure.json in Resources */,
 				24D19BED2C0207BD002B7E03 /* comics.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

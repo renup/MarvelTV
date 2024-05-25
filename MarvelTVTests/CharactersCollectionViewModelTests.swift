@@ -9,7 +9,7 @@ import XCTest
 @testable import MarvelTV
 
 enum FileName: String {
-    case characters, comics
+    case characters, comics, characters_failure
 }
 
 final class CharactersCollectionViewModelTests: XCTestCase {
@@ -36,6 +36,23 @@ final class CharactersCollectionViewModelTests: XCTestCase {
         DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
             XCTAssertEqual(self.viewModel.asyncState, .loaded)
             XCTAssertEqual(self.viewModel.characters.first!.name, "3-D Man")
+            exp.fulfill()
+        }
+        
+        await fulfillment(of: [exp], timeout: 5)
+    }
+    
+    func test_pullCharacters_should_fail() async throws {
+        let viewModel = CharactersCollectionViewModel(charactersRepository: MockCharactersRepository(fileName: .characters_failure))
+        viewModel.pullAllCharacters()
+        
+        XCTAssertEqual(viewModel.asyncState, .loading)
+        
+        let exp = XCTestExpectation(description: "characters api call should fail")
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+            XCTAssertEqual(viewModel.asyncState, .error)
+            XCTAssertEqual(viewModel.characters.count, 0)
             exp.fulfill()
         }
         

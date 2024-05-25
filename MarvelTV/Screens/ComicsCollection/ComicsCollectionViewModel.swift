@@ -22,6 +22,7 @@ class ComicsCollectionViewModel {
     }
     
     func pullComics(for characterId: Int) {
+        asyncState = .loading
         Task {
             do {
                 let comics = try await comicsRepository.fetchComics(for: characterId)
