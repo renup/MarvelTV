@@ -9,7 +9,7 @@ import XCTest
 @testable import MarvelTV
 
 enum FileName: String {
-    case characters, comics, characters_failure
+    case characters, comics, characters_failure, comics_failure
 }
 
 final class CharactersCollectionViewModelTests: XCTestCase {
@@ -58,7 +58,6 @@ final class CharactersCollectionViewModelTests: XCTestCase {
         
         await fulfillment(of: [exp], timeout: 5)
     }
-
 }
 
 class MockCharactersRepository: CharactersRepository {
@@ -69,12 +68,8 @@ class MockCharactersRepository: CharactersRepository {
         self.fileName = fileName
     }
     
-    private func load(_ fileName: String) -> URL? {
-        return Bundle(for: type(of: self)).url(forResource: fileName, withExtension: "json")
-    }
-    
     func fetchAllCharacters() async throws -> [MarvelTV.Character] {
-        guard let url = load(fileName.rawValue) else { throw URLError(.badURL) }
+        guard let url = TestUtils.load(fileName) else { throw URLError(.badURL) }
         let data = try! Data(contentsOf: url)
         let result = try JSONDecoder().decode(DataWrapper<Character>.self, from: data)
         return result.data.results
