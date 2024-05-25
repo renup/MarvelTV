@@ -34,7 +34,7 @@ struct CustomText: View {
     
     var body: some View {
         Text(text)
-            .font(.system(size: style.fontSize, weight: style.fontWeight, design: .default))
+            .font(.system(size: style.fontSize, weight: style.fontWeight, design: .serif))
             .foregroundColor(style.foregroundColor)
             .multilineTextAlignment(style.alignment)
             .lineLimit(lineLimit ?? Int.max)

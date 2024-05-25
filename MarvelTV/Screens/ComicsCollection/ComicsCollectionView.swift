@@ -17,6 +17,7 @@ struct ComicsCollectionView: View {
             Spacer(minLength: 25)
             comicCollection
         }
+        .background(Theme.backgroundColor)
         .onAppear {
             viewModel.pullComics(for: character.id)
         }

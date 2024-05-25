@@ -20,15 +20,29 @@ struct CharactersCollectionView: View {
     
     var body: some View {
         NavigationView {
-            VStack(spacing: 15) {
-                title
-                charactersCollection
-            }
-            .background(Theme.backgroundColor)
-            .onAppear {
-                viewModel.pullAllCharacters()
+            switch viewModel.asyncState {
+            case .loading:
+                CharactersCollectionShimmerView()
+            case .loaded:
+                content
+            case .error:
+                ErrorView()
+            default:
+                EmptyView()
             }
         }
+        .onAppear {
+            viewModel.pullAllCharacters()
+        }
+        
+    }
+    
+    private var content: some View {
+        VStack(spacing: 8) {
+            title
+            charactersCollection
+        }
+        .background(Theme.backgroundColor)
     }
     
     private var title: some View {

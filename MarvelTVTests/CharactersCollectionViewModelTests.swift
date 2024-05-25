@@ -73,7 +73,5 @@ class MockCharactersRepository: CharactersRepository {
         let data = try! Data(contentsOf: url)
         let result = try JSONDecoder().decode(DataWrapper<Character>.self, from: data)
         return result.data.results
-    }
-    
-    
+    }    
 }
