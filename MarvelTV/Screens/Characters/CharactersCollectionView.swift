@@ -19,12 +19,14 @@ struct CharactersCollectionView: View {
     ]
     
     var body: some View {
-        VStack(spacing: 15) {
-            title
-            charactersCollection
-        }
-        .onAppear {
-            viewModel.pullAllCharacters()
+        NavigationView {
+            VStack(spacing: 15) {
+                title
+                charactersCollection
+            }
+            .onAppear {
+                viewModel.pullAllCharacters()
+            }
         }
     }
     
@@ -33,9 +35,9 @@ struct CharactersCollectionView: View {
             Text("POPULAR CHARACTERS")
                 .font(.title)
                 .foregroundStyle(.white)
-
+            
             Spacer()
-
+            
             Button(action: {
                 print("See all tapped")
             }) {
@@ -44,18 +46,20 @@ struct CharactersCollectionView: View {
                     Image(systemName: "chevron.right")
                 }
             }
-            .buttonStyle(PlainButtonStyle()) // Ensures the button does not render with default button styling
-            .background(Color.clear) // Add a background to increase the tappable area, if necessary
+            .buttonStyle(PlainButtonStyle())
+            .background(Color.clear)
         }
         .padding(.horizontal, 20)
     }
-
+    
     private var charactersCollection: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             LazyHGrid(rows: rows, spacing: 20) {
                 ForEach(viewModel.characters) { character in
-                    characterCell(for: character)
-                        .focusable()
+                    NavigationLink(destination: ComicsCollectionView(character: character)) {
+                        characterCell(for: character)
+                            .focusable()
+                    }
                 }
             }
         }
@@ -73,7 +77,7 @@ struct CharactersCollectionView: View {
             } placeholder: {
                 ProgressView()
             }
-
+            
             Text(character.name.uppercased())
                 .lineLimit(2)
                 .truncationMode(.tail)
@@ -82,5 +86,4 @@ struct CharactersCollectionView: View {
         .frame(width: 250)
     }
 }
-
 

@@ -38,10 +38,10 @@ struct Thumbnail: Codable {
     }
 }
 
-struct MarvelResponse: Codable {
-    let data: MarvelData
+struct DataWrapper<T: Codable>: Codable {
+    let data: DataContainer<T>
 }
 
-struct MarvelData: Codable {
-    let results: [Character]
+struct DataContainer<T: Codable>: Codable {
+    let results: [T]
 }

@@ -17,6 +17,8 @@ protocol NetworkTransport {
 
 class DefaultNetworkTransport: NetworkTransport {
     
+    static let shared = DefaultNetworkTransport()
+    
     func fetchData(_ request: URLRequest) async throws -> Data {
         let (data, response) = try await URLSession.shared.data(for: request)
         

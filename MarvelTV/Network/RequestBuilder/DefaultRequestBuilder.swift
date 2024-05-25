@@ -13,6 +13,8 @@ private let logger = Logger(subsystem: "MarvelTV", category: "DefaultRequestBuil
 
 class DefaultRequestBuilder: RequestBuilder {
     
+    static let shared = DefaultRequestBuilder()
+    
     func buildRequest(
         endpoint: String,
         method: HTTPMethod = .get,
