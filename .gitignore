@@ -1,3 +1,4 @@
 *.xcuserstate
 UserInterfaceState.xcuserstate
 .DS_Store
+*.xcbkptlist
