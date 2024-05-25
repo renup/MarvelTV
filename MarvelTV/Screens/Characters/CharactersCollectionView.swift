@@ -24,6 +24,7 @@ struct CharactersCollectionView: View {
                 title
                 charactersCollection
             }
+            .background(Theme.backgroundColor)
             .onAppear {
                 viewModel.pullAllCharacters()
             }
@@ -32,9 +33,9 @@ struct CharactersCollectionView: View {
     
     private var title: some View {
         HStack {
-            Text("POPULAR CHARACTERS")
-                .font(.title)
-                .foregroundStyle(.white)
+            CustomText(text: "Popular Characters".uppercased(),
+                       style: CustomStyle( fontSize: 35, fontWeight: .bold)
+            )
             
             Spacer()
             
@@ -42,9 +43,12 @@ struct CharactersCollectionView: View {
                 print("See all tapped")
             }) {
                 HStack {
-                    Text("SEE ALL")
+                    CustomText(text: "See all".uppercased(),
+                               style: CustomStyle(fontSize: 20)
+                    )
                     Image(systemName: "chevron.right")
                 }
+                .foregroundColor(Theme.foregroundColor)
             }
             .buttonStyle(PlainButtonStyle())
             .background(Color.clear)
@@ -68,20 +72,18 @@ struct CharactersCollectionView: View {
     
     private func characterCell(for character: Character) -> some View {
         VStack(alignment: .center, spacing: 10) {
-            AsyncImage(url: character.thumbnail.url) { image in
-                image.resizable()
-                     .aspectRatio(contentMode: .fill)
-                     .frame(width: 200, height: 150)
-                     .clipShape(Ellipse())
-                     .overlay(Ellipse().stroke(Color.white, lineWidth: 2))
-            } placeholder: {
-                ProgressView()
+            CustomAsyncImage(url: character.thumbnail.url,
+                             frame: CGSize(width: 200, height: 150)
+            )
+            .clipShape(Ellipse())
+            .overlay(Ellipse().stroke(Color.white, lineWidth: 2))
+           
+            VStack {
+                CustomText(text: character.name.uppercased(),
+                           style: CustomStyle(alignment: .center)
+                )
             }
-            
-            Text(character.name.uppercased())
-                .lineLimit(2)
-                .truncationMode(.tail)
-                .multilineTextAlignment(.center)
+            .frame(height: 100)
         }
         .frame(width: 250)
     }

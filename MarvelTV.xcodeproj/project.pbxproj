@@ -30,6 +30,8 @@
 		24D19BE02C015B27002B7E03 /* ComicsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BDF2C015B27002B7E03 /* ComicsRepository.swift */; };
 		24D19BE32C01620D002B7E03 /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BE22C01620D002B7E03 /* ShimmerView.swift */; };
 		24D19BE52C016541002B7E03 /* PlaceholderProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BE42C016541002B7E03 /* PlaceholderProvider.swift */; };
+		24D19BE72C01F488002B7E03 /* CustomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BE62C01F488002B7E03 /* CustomText.swift */; };
+		24D19BE92C01FAEF002B7E03 /* CustomAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BE82C01FAEF002B7E03 /* CustomAsyncImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +79,8 @@
 		24D19BDF2C015B27002B7E03 /* ComicsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsRepository.swift; sourceTree = "<group>"; };
 		24D19BE22C01620D002B7E03 /* ShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerView.swift; sourceTree = "<group>"; };
 		24D19BE42C016541002B7E03 /* PlaceholderProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderProvider.swift; sourceTree = "<group>"; };
+		24D19BE62C01F488002B7E03 /* CustomText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomText.swift; sourceTree = "<group>"; };
+		24D19BE82C01FAEF002B7E03 /* CustomAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAsyncImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +241,8 @@
 			children = (
 				24D19BE22C01620D002B7E03 /* ShimmerView.swift */,
 				24D19BE42C016541002B7E03 /* PlaceholderProvider.swift */,
+				24D19BE62C01F488002B7E03 /* CustomText.swift */,
+				24D19BE82C01FAEF002B7E03 /* CustomAsyncImage.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -372,6 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24D19BBA2C00073E002B7E03 /* CharactersCollectionViewModel.swift in Sources */,
+				24D19BE92C01FAEF002B7E03 /* CustomAsyncImage.swift in Sources */,
 				24D19BC12C001055002B7E03 /* AsyncState.swift in Sources */,
 				24D19BD92C00F1A1002B7E03 /* ComicsCollectionView.swift in Sources */,
 				24D19BB72C000709002B7E03 /* CharactersRepository.swift in Sources */,
@@ -385,6 +392,7 @@
 				24D19BB52C000690002B7E03 /* CharactersCollectionView.swift in Sources */,
 				24D19BBF2C000E55002B7E03 /* CharactersResponse.swift in Sources */,
 				24D19BBC2C000D52002B7E03 /* Constants.swift in Sources */,
+				24D19BE72C01F488002B7E03 /* CustomText.swift in Sources */,
 				24D19BE32C01620D002B7E03 /* ShimmerView.swift in Sources */,
 				24D19BCD2C001B81002B7E03 /* NetworkTransport.swift in Sources */,
 				24D19BCB2C0019C5002B7E03 /* Dictionary+Extension.swift in Sources */,
