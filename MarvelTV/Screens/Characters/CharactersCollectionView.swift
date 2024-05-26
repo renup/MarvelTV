@@ -47,7 +47,7 @@ struct CharactersCollectionView: View {
     
     private var title: some View {
         HStack {
-            CustomText(text: "Popular Characters".uppercased(),
+            CustomText(text: "Popular Characters".capitalized,
                        style: CustomStyle( fontSize: 35, fontWeight: .bold)
             )
             
@@ -93,7 +93,7 @@ struct CharactersCollectionView: View {
             .overlay(Ellipse().stroke(Color.white, lineWidth: 2))
            
             VStack {
-                CustomText(text: character.name.uppercased(),
+                CustomText(text: character.name.capitalized,
                            style: CustomStyle(alignment: .center)
                 )
             }

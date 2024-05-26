@@ -12,15 +12,29 @@ struct ComicsCollectionView: View {
     @State var viewModel = ComicsCollectionViewModel()
     
     var body: some View {
-        VStack {
-            header
-            Spacer(minLength: 25)
-            comicCollection
+        NavigationView {
+            switch viewModel.asyncState {
+            case .initial, .loading:
+                ComicsCollectionViewShimmer()
+            case .loaded:
+                content
+            case .error:
+                ErrorView()
+            }
         }
-        .background(Theme.backgroundColor)
         .onAppear {
             viewModel.pullComics(for: character.id)
         }
+    }
+    
+    private var content: some View {
+        VStack {
+            header
+            Spacer(minLength: 30)
+            comicCollection
+                .padding(.bottom, 30)
+        }
+        .background(Theme.backgroundColor)
     }
     
     private var header: some View {
@@ -33,7 +47,7 @@ struct ComicsCollectionView: View {
             )
             .clipped()
             VStack(alignment: .leading, spacing: 10){
-                CustomText(text: character.name.uppercased(),
+                CustomText(text: character.name.capitalized,
                            style: CustomStyle(fontSize: 45, fontWeight: .bold)
                 )
                 followCharacter
@@ -48,7 +62,7 @@ struct ComicsCollectionView: View {
                 .resizable()
                 .frame(width: 40, height: 40)
             
-            CustomText(text: "Follow Character".uppercased(),
+            CustomText(text: "Follow Character".capitalized,
                        style: CustomStyle(fontSize: 20, fontWeight: .bold)
             )
         }
@@ -56,15 +70,23 @@ struct ComicsCollectionView: View {
     }
     
     private var comicCollection: some View {
-        ScrollView(.horizontal) {
-            LazyHGrid(rows: [GridItem(.flexible())]) {
-                ForEach(viewModel.comics) { comic in
-                   comicCell(for: comic)
-                        .focusable()
+        Group {
+            if viewModel.comics.isEmpty {
+                CustomText(text: "No comics found for \(character.name)",
+                           style: CustomStyle(fontSize: 45, fontWeight: .bold, alignment: .center)
+                )
+            } else {
+                ScrollView(.horizontal) {
+                    LazyHGrid(rows: [GridItem(.flexible())]) {
+                        ForEach(viewModel.comics) { comic in
+                           comicCell(for: comic)
+                                .focusable()
+                        }
+                    }
                 }
+                .focusSection()
             }
         }
-        .focusSection()
     }
     
     private func comicCell(for comic: Comic) -> some View {
@@ -76,7 +98,7 @@ struct ComicsCollectionView: View {
             .overlay(Rectangle().stroke(Color.white, lineWidth: 2))
             
             VStack(alignment: .leading, spacing: 8) {
-                CustomText(text: comic.title.uppercased(),
+                CustomText(text: comic.title.capitalized,
                            style: CustomStyle(fontSize: 20)
                 )
                 

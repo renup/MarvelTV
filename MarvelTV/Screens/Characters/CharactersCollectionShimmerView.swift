@@ -43,7 +43,6 @@ struct CharactersCollectionShimmerView: View {
             ShimmerView()
                 .frame(width: 150, height: 30)
         }
-
     }
 }
 
