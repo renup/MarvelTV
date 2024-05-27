@@ -13,6 +13,7 @@ struct Comic: Codable, Identifiable {
     let thumbnail: Thumbnail
     let issueNumber: Int
     let prices: [Price]
+    let modified: String
 }
 
 struct Price: Codable {

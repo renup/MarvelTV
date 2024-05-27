@@ -105,7 +105,12 @@ struct ComicsCollectionView: View {
                 CustomText(text: "ISSUE # \(comic.issueNumber)",
                            style: CustomStyle(foregroundColor: .gray, fontSize: 16)
                 )
-            }.frame(height: 120)
+                if let dateString = comic.modified.formatDate() {
+                    CustomText(text: dateString,
+                               style: CustomStyle(foregroundColor: .gray, fontSize: 16)
+                    )
+                }
+            }.frame(height: 160)
         }
         .frame(width: 250)
     }
