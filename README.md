@@ -45,7 +45,7 @@ The unit tests are located in the `MarvelAppTests` target and can be run using t
 
 1. Clone the repository:
    ```
-   git clone https://github.com/renup/marvel-app.git
+   git clone https://github.com/renup/MarvelTV.git
    ```
 
 2. Open the project in Xcode:
