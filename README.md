@@ -50,7 +50,7 @@ The unit tests are located in the `MarvelAppTests` target and can be run using t
 
 2. Open the project in Xcode:
    ```
-   cd marvel-app
+   cd MarvelTV
    open MarvelTV.xcodeproj
    ```
 
