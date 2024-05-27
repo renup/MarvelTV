@@ -16,6 +16,8 @@ class CharactersCollectionViewModel {
     let charactersRepository: CharactersRepository
     var asyncState: AsyncState = .initial
     var characters = [Character]()
+    var error: Error?
+    
     init(charactersRepository: CharactersRepository = DefaultCharactersRepository.shared) {
         self.charactersRepository = charactersRepository
     }
@@ -32,7 +34,10 @@ class CharactersCollectionViewModel {
             } catch {
                 await MainActor.run {
                     asyncState = .error
+                    self.error = error // Added for unit testing, but can also be used to recognise specific errors and display custom errors.
+                    logger.debug("Error pulling characters: \(error.localizedDescription)")
                     logger.debug("Error pulling characters: \(error)")
+
                 }
             }
         }

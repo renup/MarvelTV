@@ -8,7 +8,7 @@
 import Foundation
 
 class TestUtils {
-    static func load(_ fileName: FileName) -> URL? {
-        return Bundle(for: TestUtils.self).url(forResource: fileName.rawValue, withExtension: "json")
+    static func load(_ fileName: String) -> URL? {
+        return Bundle(for: TestUtils.self).url(forResource: fileName, withExtension: "json")
     }
 }

@@ -16,6 +16,7 @@ class ComicsCollectionViewModel {
     var comics = [Comic]()
     var asyncState: AsyncState = .initial
     let comicsRepository: ComicsRespository
+    var error: Error?
     
     init(comicsRepository: ComicsRespository = DefaultComicsRepository.shared) {
         self.comicsRepository = comicsRepository
@@ -33,8 +34,9 @@ class ComicsCollectionViewModel {
             } catch {
                 await MainActor.run {
                     asyncState = .error
-                    logger.debug("Error pulling comics: \(error)")
-                }
+                    self.error = error // Added for unit testing, but can also be used to recognise specific errors and display custom errors.
+                    logger.debug("Error pulling characters: \(error.localizedDescription)")
+                    logger.debug("Error pulling characters: \(error)")                }
             }
         }
     }

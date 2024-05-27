@@ -49,7 +49,7 @@ class DefaultNetworkTransport: NetworkTransport {
                 let data = try await fetchData(request)
                 return try decodeObject(data, jsonDecoder: jsonDecoder)
             } catch {
-                throw error // Rethrow the error
+                throw error
             }
         }
     

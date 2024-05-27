@@ -41,6 +41,8 @@
 		24D19BFD2C02196A002B7E03 /* CharactersCollectionShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BFC2C02196A002B7E03 /* CharactersCollectionShimmerView.swift */; };
 		24D19BFF2C021B2A002B7E03 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19BFE2C021B2A002B7E03 /* ErrorView.swift */; };
 		24D19C012C021EEC002B7E03 /* ComicsCollectionViewShimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19C002C021EEC002B7E03 /* ComicsCollectionViewShimmer.swift */; };
+		24D19C032C04C5F6002B7E03 /* MockRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19C022C04C5F6002B7E03 /* MockRequestBuilder.swift */; };
+		24D19C052C04C7DA002B7E03 /* MockNetworkTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D19C042C04C7DA002B7E03 /* MockNetworkTransport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +101,8 @@
 		24D19BFC2C02196A002B7E03 /* CharactersCollectionShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersCollectionShimmerView.swift; sourceTree = "<group>"; };
 		24D19BFE2C021B2A002B7E03 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		24D19C002C021EEC002B7E03 /* ComicsCollectionViewShimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsCollectionViewShimmer.swift; sourceTree = "<group>"; };
+		24D19C022C04C5F6002B7E03 /* MockRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRequestBuilder.swift; sourceTree = "<group>"; };
+		24D19C042C04C7DA002B7E03 /* MockNetworkTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkTransport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -286,6 +290,8 @@
 			isa = PBXGroup;
 			children = (
 				24D19BF72C0216A7002B7E03 /* TestUtils.swift */,
+				24D19C022C04C5F6002B7E03 /* MockRequestBuilder.swift */,
+				24D19C042C04C7DA002B7E03 /* MockNetworkTransport.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -455,8 +461,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				24D19BF42C021456002B7E03 /* ComicsCollectionViewModelTests.swift in Sources */,
+				24D19C032C04C5F6002B7E03 /* MockRequestBuilder.swift in Sources */,
 				24D19BF82C0216A7002B7E03 /* TestUtils.swift in Sources */,
 				24D19BEF2C0207ED002B7E03 /* CharactersCollectionViewModelTests.swift in Sources */,
+				24D19C052C04C7DA002B7E03 /* MockNetworkTransport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

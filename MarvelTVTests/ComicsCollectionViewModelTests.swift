@@ -14,7 +14,7 @@ final class ComicsCollectionViewModelTests: XCTestCase {
     var mockService: MockComicsRepository!
     
     override func setUpWithError() throws {
-        mockService = MockComicsRepository(fileName: .comics)
+        mockService = MockComicsRepository(endpoint: .comics, testCase: .success, parameters: ["characters" : 1234])
         viewModel = ComicsCollectionViewModel(comicsRepository: mockService)
     }
 
@@ -39,8 +39,8 @@ final class ComicsCollectionViewModelTests: XCTestCase {
         await fulfillment(of: [exp], timeout: 5)
     }
     
-    func test_pullComics_should_fail() async throws {
-        let viewModel = ComicsCollectionViewModel(comicsRepository: MockComicsRepository(fileName: .comics_failure))
+    func test_pullComics_should_fail_with_decoding_error() async throws {
+        let viewModel = ComicsCollectionViewModel(comicsRepository: MockComicsRepository(endpoint: .comics, testCase: .failure, parameters: [:]))
         viewModel.pullComics(for: 1234)
         
         XCTAssertEqual(viewModel.asyncState, .loading)
@@ -49,25 +49,51 @@ final class ComicsCollectionViewModelTests: XCTestCase {
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
             XCTAssertEqual(viewModel.asyncState, .error)
+            XCTAssertEqual(viewModel.error?.localizedDescription, "The data couldn’t be read because it is missing.")
             XCTAssertEqual(viewModel.comics.count, 0)
             exp.fulfill()
         }
         
         await fulfillment(of: [exp], timeout: 5)
     }
+    
+    func test_pullComics_should_fail_with_badURL_response() async throws {
+        let mockService = MockComicsRepository(endpoint: .badComicEndpoint, testCase: .failure, parameters: [:])
+        let viewModel = ComicsCollectionViewModel(comicsRepository: mockService)
+        
+        viewModel.pullComics(for: 123)
+        XCTAssertEqual(viewModel.asyncState, .loading)
+        
+        let exp = XCTestExpectation(description: "comics api call should fail with bad url response")
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+            XCTAssertEqual(viewModel.asyncState, .error)
+            XCTAssertEqual(viewModel.error?.localizedDescription, "The operation couldn’t be completed. (NSURLErrorDomain error -1000.)")
+            XCTAssertEqual(viewModel.comics.count, 0)
+            exp.fulfill()
+        }
+        
+        await fulfillment(of: [exp], timeout: 5)
+    }
+    
 }
 
 class MockComicsRepository: ComicsRespository {
-    let fileName: FileName
+    let requestBuilder = MockRequestBuilder()
+    let endpoint: Endpoint
+    let testCase: TestCase
+    var parameters = [String : Any]()
     
-    init(fileName: FileName) {
-        self.fileName = fileName
+    init(endpoint: Endpoint, testCase: TestCase, parameters: [String : Any]) {
+        self.endpoint = endpoint
+        self.testCase = testCase
+        self.parameters = parameters
     }
     
     func fetchComics(for characterId: Int) async throws -> [MarvelTV.Comic] {
-        guard let url = TestUtils.load(fileName) else { throw URLError(.badURL) }
-        let data = try! Data(contentsOf: url)
-        let result = try JSONDecoder().decode(DataWrapper<Comic>.self, from: data)
-        return result.data.results
+        let networkTransport = MockNetworkTransport(endpoint: endpoint, testCase: testCase)
+        let request = try await requestBuilder.buildRequest(endpoint: endpoint.rawValue, method: .get, parameters: parameters.asURLQueryItems)
+        let dataWrapper: DataWrapper<Comic> = try await networkTransport.executeRequest(request, jsonDecoder: JSONDecoder())
+        return dataWrapper.data.results
     }
 }
